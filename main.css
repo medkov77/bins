@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "InterRegular";
+    src: local("Inter"),
+        url("./fonts/inter/Inter-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "InterMedium";
+    src: url("./fonts/inter/Inter-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "InterSemiBold";
+    src: url("./fonts/inter/Inter-SemiBold.otf") format("opentype");
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("./fonts/inter/Inter-Bold.otf") format("opentype");
+}
+body {
+    font-size: 16px;
+    font-family: "InterRegular";
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    margin: auto;
+    width: 1300px;
+    padding: 0 12px;
+}
+
+.header {
+    height: 60px;
+}
+.logo {
+    width: 120px;
+}
+.logo img {
+    width: 100%;
+}
+
+.top-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background: #00569c;
+}
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 0;
+}
+.nav-item {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "InterSemiBold";
+}
