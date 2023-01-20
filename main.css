@@ -73,15 +73,18 @@ ul {
     color: ##db30a2;
 }
 .cards-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     gap: 20px;
     margin-top: 30px;
 }
 .card {
-    width: 50%;
     padding: 10px 0;
     background: #e5e5e552;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .card-image {
     display: block;
@@ -97,6 +100,7 @@ ul {
 .card-text {
     margin-bottom: 30px;
     padding: 0 20px;
+    flex-grow: 3;
 }
 .card-link-wrapper {
     text-align: right;
@@ -107,6 +111,9 @@ ul {
     background: #1b4af5;
     color: #fff;
     padding: 15px 25px;
-
+    transition: all 0.3s;
     border-radius: 15px;
+}
+.card-link:hover {
+    background: #0a2ba1;
 }
