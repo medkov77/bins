@@ -125,6 +125,9 @@ ul {
     background: #0a2ba1;
 }
 .footer {
-    height: 60px;
     background: #00569c;
+    padding: 20px 0;
+}
+.footer-icons {
+    color: #fff;
 }
